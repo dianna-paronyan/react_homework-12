@@ -1,0 +1,18 @@
+body{
+    background-color: #2EC2C0;
+  }
+  
+  .storageContainer{
+    background-color: #2EC2C0;
+    height: 100vh;
+  
+  }
+
+  .formBox{
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+  }

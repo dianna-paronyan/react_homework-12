@@ -1,0 +1,35 @@
+body{
+    background-color: rgb(233, 231, 231);
+}
+
+.boxOne{
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    font-size: 40px;
+    text-shadow: 2px 7px 5px rgba(0,0,0,0.3), 
+    0px -4px 10px rgba(255,255,255,0.3)
+}
+
+
+footer {
+    width: 100%;
+    text-align: center;
+    padding: 30px 20px;
+    background-color: rgba(0,0,0,0.7);
+    color:#fffafa;
+    margin-top: 120px;  
+    position:absolute; 
+    bottom:0;
+}
+
+footer a{
+    color: #54A4A0;
+    font-size: 17px;
+}

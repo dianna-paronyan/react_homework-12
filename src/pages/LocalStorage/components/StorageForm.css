@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* .container{
+    width: 400px; */
+    /* display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 2px 5px 2px #000;
+} */
+
+
+.form{
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+    padding: 50px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+    background-color: rgba(29, 28, 28, 0.8);
+    border-radius: 30px;
+}
+
+.emailInput, .pwordInput{
+    width: 270px;
+    height: 40px;
+    padding: 10px;
+    border: none;
+    border-bottom: 2px solid #054c53;
+    outline: none;
+    background:transparent;
+    font-size: 19px;
+    margin-top: 10px;
+    color: #757575;
+    letter-spacing: 1.5px;
+}
+.btn{
+    width: 130px;
+    height: 40px;
+    margin: 30px auto auto auto;
+    border-radius: 20px;
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+    background-image: linear-gradient(to left, #0f4f61,  #119997);
+    border: none;
+    outline: none;
+    color: rgb(71, 71, 71);
+    font-size: 14px;
+}
+

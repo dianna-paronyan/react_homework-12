@@ -8,8 +8,8 @@ function Home() {
               <h1>Homework 12</h1>
           
           <ol>
-            <li>LocalStorage</li>
-            <li>Fetch</li>
+            <li>useLocalStorage</li>
+            <li>useFetch</li>
             <li>Theme</li>
             <li>TodoList</li>
           </ol>

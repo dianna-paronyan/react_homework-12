@@ -78,11 +78,6 @@ function TodoApp(){
     dispatch({type: 'add', payload: {value:value}})
   }
 
-  function onClearCompleted(){
-    
-    dispatch({type: 'clearCompleted'})
-  }
-
   function onDelete(todo){
 
     dispatch({type:'delete', payload:{id:todo.id}})

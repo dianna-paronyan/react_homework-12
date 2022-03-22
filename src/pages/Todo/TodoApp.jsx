@@ -51,10 +51,7 @@ function reducer(state, action){
           return todo;
         })
   }
-  else if(action.type === 'clearCompleted'){
-
-    return state.filter((todo)=> !todo.isCompleted);
-  }
+ 
 }
 
 
@@ -104,7 +101,7 @@ function TodoApp(){
           <span className='heading'>
             <h3 className='text'>To-Do List</h3>
           </span>
-          <MyContext.Provider value={{todos:todos, onAdd: onAdd, onChange:onChange, onDelete:onDelete, onClearCompleted:onClearCompleted}}>
+          <MyContext.Provider value={{todos:todos, onAdd: onAdd, onChange:onChange, onDelete:onDelete}}>
             <Form  />
             <TodoList />
             <TodoFooter />

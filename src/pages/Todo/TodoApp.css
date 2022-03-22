@@ -1,9 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
 
-body{
-    background-color: #F5B927;
-}
-
 .app{
     height: 100vh;
     display: flex;
@@ -15,6 +11,7 @@ body{
 .container{
     height: 70vh;
 }
+
 .todoBox{
     padding: 50px 35px 10px 35px;
     background-color: #2C2626;

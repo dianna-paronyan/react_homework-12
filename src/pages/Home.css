@@ -3,7 +3,7 @@ body{
 }
 
 .boxOne{
-    height: 50vh;
+    height: 60vh;
     display: flex;
     flex-direction: column;
     gap: 40px;

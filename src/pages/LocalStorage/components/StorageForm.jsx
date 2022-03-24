@@ -18,9 +18,12 @@ function StorageForm(){
         setPwordInput(e.target.value);
     }
 
-    function handleBtnClick(){
+    function handleSubmit(e){
+        e.preventDefault;
         setItem1(emailInput);
         setItem2(pwordlInput);
+        setEmailInput('');
+        setPwordInput('');
     }
 
     function clearStorage(){
@@ -31,11 +34,11 @@ function StorageForm(){
         <>
             <h1>Sign In</h1>
     
-            <form className='form' >
+            <form className='form' onSubmit={handleSubmit}>
 
                 <input type='text'  placeholder='E-mail' name='email' className='emailInput' onChange={handleEmailInput} value={emailInput} />
                 <input type='password' placeholder='Password' name='password' className='pwordInput' onChange={handlePwordlInput} value={pwordlInput}/>
-                <button className='btn'  onClick={handleBtnClick}>Sign In</button>
+                <button className='btn'  >Sign In</button>
             </form>
             <button className='btn' onClick={clearStorage}>clear storage</button>
         </>

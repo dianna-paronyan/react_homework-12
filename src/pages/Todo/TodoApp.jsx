@@ -55,22 +55,15 @@ function reducer(state, action){
 }
 
 
-
 function TodoApp(){
 
-  const [todos, dispatch] = useReducer(reducer, list);
+  const [todos, dispatch] = useReducer(reducer, JSON.parse(localStorage.getItem('todoItems')) || list);
 
 
   useEffect(()=>{
     localStorage.setItem('todoItems', JSON.stringify(todos))
   },[todos])
   
-  useEffect(()=>{
-    if(localStorage.getItem('todoItems')){
-      JSON.parse(localStorage.getItem('todoItems')) 
-    }
-     
-  },[todos])
 
   function onAdd(value){
 

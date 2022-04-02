@@ -1,11 +1,13 @@
+import { useTheme } from '../providers/ThemeProvider';
 import './ToggleSwitch.css';
 
-function ToggleSwitch({click}){
+function ToggleSwitch(){
+    const { clickToggle} =  useTheme();
 
     return(
         <>
             <label className="switch">
-                <input type="checkbox" onClick={click} />
+                <input type="checkbox" onClick={clickToggle} />
                 <span className="slider round"></span>
             </label>
         </>

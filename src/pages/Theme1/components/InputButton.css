@@ -2,19 +2,6 @@
     box-sizing: border-box;
 }
 
-
-.boxContent{
-    height: 100vh;
-    padding-top: 50px;
-    background-color: #F7F7F7;
-}
-
-h2{
-    
-    text-align: center;
-    font-size: 35px;
-}
-
 .boxdark{
     background-color: #333333;
     padding: 70px;
@@ -57,11 +44,3 @@ h2{
     outline: none;
 }
 
-.themeContent{
-    height: 70vh;
-    display: flex;
-    flex-direction: column;
-    gap: 60px;
-    justify-content: center;
-    align-items: center;
-}

@@ -1,7 +1,7 @@
 import { useState } from "react";
 
 
-function useTheme(){
+function useThemeHook(){
 
     const [theme, setTheme] = useState('light');
 
@@ -16,4 +16,4 @@ function useTheme(){
     return {theme, clickToggle};
 }
 
-export default useTheme;
+export default useThemeHook;
